@@ -1,10 +1,7 @@
-- name: Install package
+- name: deploy wordpress
   hosts: launched
   become: True
   remote_user: "{{ remote_user }}"
   gather_facts: True
   roles:
-    - common
-    - php
-    - database
-    - web_server
+    - wordpress

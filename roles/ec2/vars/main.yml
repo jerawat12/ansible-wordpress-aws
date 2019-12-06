@@ -1,0 +1,7 @@
+env           : "development"
+aws_region    : "ap-southeast-1"
+instance_type : "t3.small"
+instance_count: 1
+ami           : "ami-f95ef58a"
+keypair       : "valtech"
+group_id      : "sg-3d3a0e59"
